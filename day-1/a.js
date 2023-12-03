@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const data = fs.readFileSync('input.txt', 'UTF-8');
+const data = fs.readFileSync('input-a.txt', 'UTF-8');
 const lines = data.split(/\r?\n/);
 
 let sum = 0;
