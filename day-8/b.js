@@ -38,7 +38,5 @@ currentMaps.forEach((currentMap) => {
 });
 
 const gcd = (a, b) => a ? gcd(b % a, a) : b;
-
 const lcm = (a, b) => a * b / gcd(a, b);
-
 console.log(stepsA.reduce(lcm));

@@ -6,7 +6,7 @@ const lines = data.split(/\r?\n/);
 
 let sum = 0;
 
-lines.forEach(line => {
+lines.forEach((line, ln) => {
 
 });
 
